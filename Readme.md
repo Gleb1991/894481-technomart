@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Глеб Степанович](https://up.htmlacademy.ru/htmlcss/23/user/894481).
-* Наставник: [Максим Конов](https://htmlacademy.ru/profile/id206795).
+* Наставник: [Максим  Конов](https://htmlacademy.ru/profile/id206795).
 
 ---
 

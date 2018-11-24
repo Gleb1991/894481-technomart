@@ -9,8 +9,8 @@
   		<h2 class="header-headline"><a href="index.html">Техномарт</a></h2>
   		<input class="site-search" type="search" value="Найти">
   		<a class="bookmarks" href="bookmarks.html">Закладки</a>
-  		<a class="shop-basket" href="basket.html"></a>
-  		<a class="checkout" href="order.html"></a>
+  		<a class="shop-basket" href="basket.html">Корзина</a>
+  		<a class="checkout" href="order.html">Оформить заказ</a>
   		<h2>Интернет-магазин<br>
   		строительных материалов<br>
   		и инструментов для ремонта</h2>
@@ -36,11 +36,38 @@
  	</header>
  	<h1 class="visually-hidden">Магазин строительных материалов и инструментов для ремонта "Техномарт"</h1>
  	<main>
- 		
- 		<!-- здесь будет секция со всеми товарами -->
-
+        <div class="materials">	
+        <h4>Материалы</h4>
+        <img src="paint.jpg" alt="Краска">
+        <a href="#">На любой вкус</a>
+        </div>
+        <div class="tool">
+        	<h4>Инструмент</h4>
+        	<img src="drill.jpg" alt="Дрель">
+        	<a href="#">На все случаи</a>
+        </div>
+        <div class="technique">
+        	<h4>Техника</h4>
+        	<img src="technique.jpg" alt="Трактор">
+        	<a href="#">Для стройки</a>
+        </div>
+        <div class="discount">
+        	<h4>Скидки 50%</h4>
+        	<img src="bin.jpg" alt="Корзина">
+        	<a href="#">На 350 товаров</a>
+        </div>
+        <div class="delivery">
+        	<h4>Доставка</h4>
+        	<img src="delivery.jpg">
+        	<a href="#">Бесплатно</a>
+        </div>
+        <div class="drill-catalog">
+        	<b>Дрели</b>
+        	<p>Соседям на радость</p>
+        	<a class="item-facture-button" type="button" href="catalog.html">Открыть каталог</a>
+        </div>
  		<section class="item-buttons">
- 			<b>популярные товары:</b>
+ 			<h2>популярные товары:</h2>
  			<a type="button" class="item-facture-button" href="popular-item.html"> все популярные товары</a>
  			<ul>
  				<li>Bosch BFG 9000</li>
@@ -51,7 +78,7 @@
 
  		</section>
  		<section class="facture-buttons">
- 			<b>популярные производители:</b>
+ 			<h2>популярные производители:</h2>
  			<a type="button" class="item-facture-button" href="factures.html">все производители</a>
  			<ul>
  				<li>Bosch</li>
@@ -65,20 +92,26 @@
  			</ul>
  		</section>
  		<section class="cervices">
+ 			<div class="services">
  			<h3>сервисы</h3>
- 			<p>Хороший интернет-магазин отличается от плохого не только ценами</p>
- 			<p>Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными</p>
- 			<ul class="cervices-table">
+ 			<p>Хороший интернет-магазин отличается от плохого не только ценами<br>
+ 			Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными</p>
+ 		    </div>
+ 		    <div class="services-table">
+ 			<ul>
  				<li><a href="delivery.html">Доставка</a></li>
  				<li><a href="guaranty.html">Гарантия</a></li>
  				<li><a href="credit.html">Кредит</a></li>
  			</ul>
+ 		    </div>
+            <div class="delivery-main">
             <h2>Доставка</h2>
             <p>Мы с удовольствием доставим ваш товар прямо<br>
             к вашему подъезду совершенно бесплатно!<br>
             Ведь мы неплохо заработаем,<br>
             поднимая его на ваш этаж!</p>
-            <img src="bigcar.jpg" alt="грузовик">
+            </div>
+            <img src="bigcar.jpg" alt="грузовик" class="bigcar-main">
  		</section>
  		<section class="company-contacts">
  			<h3>Компания "Техномарт"</h3>
@@ -113,7 +146,7 @@
  					<li><a href="contacts.html">Контакты</a></li>
  				</ul>
  			</nav>	
- 				<p>г. Санкт-Петербург, ул. Б.Конюшенная, д.19/8<br>
+ 				<p class="footer-address">г. Санкт-Петербург, ул. Б.Конюшенная, д.19/8<br>
  				+7 (812) 555-05-55</p>
  				<nav class="bottom-nav">
  					<ul>

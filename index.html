@@ -9,30 +9,30 @@
   		<h2 class="header-headline"><a href="index.html">Техномарт</a></h2>
   	<div class="site-search">
   		<img src="img/icon-search.svg" alt="Поиск">
-  		<input class="site-search" type="search" value="Найти">
+  		<input class="site-search" type="search" value="Поиск:" aria-label="Поиск по сайту">
   	</div>
   	<div class="bookmarks">
   		<img src="img/icon-bookmark.svg" alt="Закладки">
-  		<a class="bookmarks" href="bookmarks.html">Закладки</a>
+  		<a class="bookmarks" href="bookmarks.html" aria-label="Закладки">Закладки</a>
   	</div>
   	<div class="shop-basket">
   		<img src="img/bin-icon.svg" alt="Корзина">
-  		<a class="shop-basket" href="basket.html">Корзина</a>
+  		<a class="shop-basket" href="basket.html" aria-label="Корзина товаров">Корзина</a>
   	</div>
   		<a class="checkout" href="order.html">Оформить заказ</a>
   		<h2>Интернет-магазин<br>
   		строительных материалов<br>
   		и инструментов для ремонта</h2>
   		<div class="header-address">
-  			<a class="header-phone" href="tel:+78125550555">+7 (812) 555-05-55</a>
+  			<a class="header-phone" href="tel:+78125550555" aria-label="Позвонить в компанию">+7 (812) 555-05-55</a>
   			<p>г. Санкт-Петербург, ул. Б.Конюшенная, д.19/8</p>
   		</div>
   		<div class="registration">
   		<ul>
   			<li><img src="img/icon-login.svg" alt="Войти">
-  				<a type="button" class="user-enter" href="">Войти</a>
+  				<a type="button" class="user-enter" href="#" aria-label="Войти в личный кабинет">Войти</a>
   			</li>
-  			<li><a type="button" class="user-registration" href="">Регистрация</a></li>
+  			<li><a type="button" class="user-registration" href="#" aria-label="Регистрация на сайте">Регистрация</a></li>
   		</ul>
   	    </div>
   		<nav>
@@ -106,14 +106,14 @@
  			<h2>популярные производители:</h2>
  			<a type="button" class="item-facture-button" href="factures.html">все производители</a>
  			<ul>
- 				<li class="bosch"><a href="#"><img src="img/bosch.jpg" alt="Bosch"></a></li>
- 				<li class="makita"><a href="#"><img src="img/Makita.jpg" alt="Makita"></a></li>
- 				<li class="dewalt"><a href="#"><img src="img/DeWALT.jpg" alt="Dewalt"></a></li>
- 				<li class="interskol"><a href="#"><img src="img/Интерскол.jpg" alt="Интерскол"></a></li>
- 				<li class="hitachi"><a href="#"><img src="img/Hitachi.jpg" alt="Hitachi"></a></li>
+ 				<li class="bosch"><a href="#"aria-label="Bosch"><img src="img/bosch.jpg" alt="Bosch"></a></li>
+ 				<li class="makita"><a href="#" aria-label="Makita"><img src="img/Makita.jpg" alt="Makita"></a></li>
+ 				<li class="dewalt"><a href="#" aria-label="Dewalt"><img src="img/DeWALT.jpg" alt="Dewalt"></a></li>
+ 				<li class="interskol"><a href="#" aria-label="Интерскол"><img src="img/Интерскол.jpg" alt="Интерскол"></a></li>
+ 				<li class="hitachi"><a href="#" aria-label="Hitachi"><img src="img/Hitachi.jpg" alt="Hitachi"></a></li>
  				<li class="lg"><a href="#"><img src="img/LG.jpg" alt="LG"></a></li>
- 				<li class="aeg"><a href="#"><img src="img/AEG.jpg" alt="AEG"></a></li>
- 				<li class="metabo"><a href="#"><img src="img/Metabo.jpg" alt="Metabo"></a></li>
+ 				<li class="aeg"><a href="#" aria-label="AEG"><img src="img/AEG.jpg" alt="AEG"></a></li>
+ 				<li class="metabo"><a href="#" aria-label="Metabo"><img src="img/Metabo.jpg" alt="Metabo"></a></li>
  			</ul>
  		</section>
  		<section class="cervices">
@@ -159,6 +159,20 @@
  			<!-- здесь будет карта -->
 
  			<a class="item-facture-button" type="button" href="">заблудились? напишите нам!</a>
+ 			<form class="write-us" action="/echo" method="post">
+ 		      <div class="form-main">
+ 				<label for="name">Ваше Имя:</label>
+ 				<input type="text" name="write-us" id="name" placeholder="Имя Фамилия" aria-label="Ваше имя и фамилия">
+ 				<label for="e-mail">Ваш e-mail:</label>
+ 				<input type="mail" name="write-us" id="mail" placeholder="email@example.com" aria-label="Адрес вашей электронной почты">
+ 				<label for="letter-text">Текст письма:</label>
+ 				<textarea name="write-us" id="letter-text" placeholder="В свободной форме" aria-label="Текст письма"></textarea>
+ 				<img src="img/svg-technomart/icon-close.svg" aria-label="Закрыть форму обратной связи">
+ 			  </div>
+ 			  <div class="form-footer">
+ 					<a type="button" href="#" aria-label="Отправить письмо">Отправить</a>
+ 			  </div>
+ 			</form>
  		</section>
  		<footer class="main-footer">
  			<h2 class="footer-headline">Техномарт</h2>
@@ -185,12 +199,12 @@
  					<p class="copyright">&#169; 2010-2017 Компания "Техномарт"<br>
  					Все права защищены</p>
  					<ul>
- 						<li><a class="social-button" href="#"><img src="img/vk-icon.png" alt="VK">В Контакте</a></li>
- 						<li><a class="social-button" href="#"><img src="img/fb-icon.png" alt="FB">Фейсбук</a></li>
- 						<li><a class="social-button" href="#"><img src="img/insta-icon.png" alt="Insta">Инстаграм</a></li>
+ 						<li><a class="social-button" href="#" aria-label="страница компании В контакте"><img src="img/vk-icon.png" alt="VK"></a></li>
+ 						<li><a class="social-button" href="#" aria-label="Страница компании на Фейсбуке"><img src="img/fb-icon.png" alt="FB">Фейсбук</a></li>
+ 						<li><a class="social-button" href="#" aria-label страница компании в инстаграме><img src="img/insta-icon.png" alt="Insta">Инстаграм</a></li>
  					</ul>
  					<p class="feedback"><b>Обратная связь</b><br>
- 				    <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
+ 				    <a href="mailto:mail@htmlacademy.ru" aria-label="отпрвить письмо компании">mail@htmlacademy.ru</a></p>
  				    <p class="developed"><b>Разработано -</b><br>
  				    <a href="htmlacademy.ru">htmlacademy.ru</a></p>
  				</div>

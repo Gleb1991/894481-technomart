@@ -2,41 +2,47 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i|PT+Sans:400,400i&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>HTML Academy: Техномарт</title>
   </head>
   <body>
   	<header class="main-header">
-  		<h2 class="header-headline"><a href="index.html">Техномарт</a></h2>
+  	<section class="item-header">
+  	<a type="button" class="head-button">Техномарт</a>
   	<div class="site-search">
   		<img src="img/icon-search.svg" alt="Поиск">
-  		<input class="site-search" type="search" value="Поиск:" aria-label="Поиск по сайту">
+  		<input type="search" placeholder="Поиск" aria-label="Поиск по сайту">
   	</div>
   	<div class="bookmarks">
   		<img src="img/icon-bookmark.svg" alt="Закладки">
-  		<a class="bookmarks" href="bookmarks.html" aria-label="Закладки">Закладки</a>
+  		<a href="bookmarks.html" aria-label="Закладки">Закладки</a>
   	</div>
   	<div class="shop-basket">
   		<img src="img/bin-icon.svg" alt="Корзина">
-  		<a class="shop-basket" href="basket.html" aria-label="Корзина товаров">Корзина</a>
-  	</div>
-  		<a class="checkout" href="order.html">Оформить заказ</a>
-  		<h2>Интернет-магазин<br>
+  		<a href="basket.html" aria-label="Корзина товаров">Корзина</a>
+  	</div class="checkout">
+  		<a type="button" href="order.html">Оформить заказ</a>
+  	</section>
+  	<div class="index-phone-registration">
+  		<h3>Интернет-магазин<br>
   		строительных материалов<br>
-  		и инструментов для ремонта</h2>
-  		<div class="header-address">
-  			<a class="header-phone" href="tel:+78125550555" aria-label="Позвонить в компанию">+7 (812) 555-05-55</a>
+  		и инструментов для ремонта</h3>
+  		<section class="header-address">
+  			<a href="tel:+78125550555" aria-label="Позвонить в компанию"><img src="img/icon-phone.svg">+7 (812) 555-05-55</a>
   			<p>г. Санкт-Петербург, ул. Б.Конюшенная, д.19/8</p>
-  		</div>
-  		<div class="registration">
+  		</section>
+  		<section class="registration">
   		<ul>
-  			<li><img src="img/icon-login.svg" alt="Войти">
-  				<a type="button" class="user-enter" href="#" aria-label="Войти в личный кабинет">Войти</a>
+  			<li><a type="button" class="user-enter" href="#" aria-label="Войти в личный кабинет"><img src="img/icon-login.svg" alt="Войти">Войти</a>
   			</li>
   			<li><a type="button" class="user-registration" href="#" aria-label="Регистрация на сайте">Регистрация</a></li>
   		</ul>
-  	    </div>
+  	    </section>
   		<nav>
-  			<ul class="header-navigation">
+  		<div class="header-navigation">
+  			<ul>
   				<li><a href="index.html">Главная</a></li>
   				<li><a href="company.html">Компания</a></li>
   				<li><a href="catalog.html">Каталог</a></li>
@@ -45,13 +51,16 @@
   				<li><a href="delivery.html">Доставка</a></li>
   				<li><a href="contacts.html">Контакты</a></li>
   			</ul>
+  		</div>
   		</nav>
+  	</div>
  	</header>
  	<h1 class="visually-hidden">Магазин строительных материалов и инструментов для ремонта "Техномарт"</h1>
  	<main>
         <div class="materials">	
         <h4>Материалы</h4>
         <img src="img/icon-paint.svg" alt="Краска">
+        <img src="img/new flag.png">
         <a href="#">На любой вкус</a>
         </div>
         <div class="tool">
@@ -62,7 +71,7 @@
         <div class="technique">
         	<h4>Техника</h4>
         	<img src="img/icon-tractor.svg" alt="Трактор">
-        	<a href="#">Для стройки</a>
+        	<a type="button" href="#">Для стройки</a>
         </div>
         <div class="discount">
         	<h4>Скидки 50%</h4>
@@ -164,15 +173,13 @@
  		      <div class="form-main">
  				<label for="name">Ваше Имя:</label>
  				<input type="text" name="write-us" id="name" placeholder="Имя Фамилия" aria-label="Ваше имя и фамилия">
- 				<label for="e-mail">Ваш e-mail:</label>
+ 				<label for="mail">Ваш e-mail:</label>
  				<input type="mail" name="write-us" id="mail" placeholder="email@example.com" aria-label="Адрес вашей электронной почты">
  				<label for="letter-text">Текст письма:</label>
  				<textarea name="write-us" id="letter-text" placeholder="В свободной форме" aria-label="Текст письма"></textarea>
  				<img src="img/svg-technomart/icon-close.svg" aria-label="Закрыть форму обратной связи">
  			  </div>
- 			  <div class="form-footer">
- 					<a type="button" href="#" aria-label="Отправить письмо">Отправить</a>
- 			  </div>
+ 			    <input type="submit" name="write-us" value="Отправить">
  			</form>
  		</section>
  		<footer class="main-footer">

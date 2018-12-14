@@ -1,0 +1,184 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	font-family: "Cuprum", "PT Sans", sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #000000;
+
+	background-color: #ffffff;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.item-header {
+	background-color: #293449;
+}
+
+.item-header a {
+	color: #ffffff;
+}
+
+.head-button {
+    text-align: center;
+
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 24px;
+    background-color: #ee3643;
+    border: none;
+    color: #ffffff;
+    box-shadow: 0 5px 0 0 #b52933;
+}
+
+.head-button:hover {
+	background-color: #ca2c37;
+	box-shadow: #9a212a;
+}
+
+.head-button:active {
+	background-color: #ba2732;
+	box-shadow: #8e1e26;
+}
+
+.site-search input {
+    background-color: transparent;
+    border: none;
+}
+
+.site-search input:hover {
+	background-color: #212a3a;
+}
+
+.site-search input:focus {
+	background-color: #ffffff;
+}
+
+.index-phone-registration {
+	margin-top: 0;
+	background-color: #f3f7f9;
+}
+
+.index-phone-registration h3 {
+	color: #ee3643;
+
+	font-style: italic;
+	font-size: 16px;
+	line-height: 23px;
+}
+
+.header-address a {
+	color: #ee3643;
+
+	font-size: 21px;
+    line-height: 21px;
+    border: 3px solid #ffffff;
+}
+
+.header-address p {
+    color: #727e90;
+
+	font-size: 14px;
+	line-height: 24px;
+    text-align: center;
+}
+
+.registration ul {
+	list-style: none;
+}
+
+.registration a {
+	background-color: #ffffff;
+	vertical-align: middle;
+}
+
+
+.header-navigation a {
+    color: #ffffff;
+    background-color: #32425c;
+}
+
+.header-navigation a:hover {
+	background-color: #293449;
+}
+
+.header-navigation a:active {
+	background-color: #1d2739;
+	color: #747880;
+}
+
+.materials {
+	background-color: #ffbf47;
+	color: #ffffff;
+
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.materials a {
+	color: #ffffff;
+	background-color: #e5ac40;
+
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.tool {
+	color: #ffffff;
+	background-color: #3bbce3;
+
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.tool a {
+	color: #ffffff;
+	background-color: #35a9cc;
+
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.technique {
+	color: #ffffff;
+	background-color: #dc91d8;
+
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.technique a {
+	color: #ffffff;
+	background-color: #c682c2;
+
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.discount {
+	color: #ffffff;
+	background-color: #8ed78f;
+
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.discount a {
+	color: #ffffff;
+	background-color: #80c180;
+
+	font-size: 14px;
+	line-height: 18px;
+}
+
+
+
+
+

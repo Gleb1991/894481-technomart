@@ -18,6 +18,24 @@ ul {
 	list-style: none;
 }
 
+.item-facture-button {
+	color: #ffffff;
+	background-color: #ee3643;
+
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.price-button {
+    background-color: #ee3643;
+    color: #ffffff;
+
+	text-align: center;
+	font-weight: bold;
+
+}
+
 .item-header {
 	background-color: #293449;
 }
@@ -46,6 +64,11 @@ ul {
 .head-button:active {
 	background-color: #ba2732;
 	box-shadow: #8e1e26;
+}
+
+.head-button span {
+	font-size: 30px;
+	line-height: 30px;
 }
 
 .site-search input {
@@ -114,6 +137,20 @@ ul {
 	color: #747880;
 }
 
+.checkout a {
+    background-color: #63a63e;
+}
+
+.checkout a:hover {
+	background-color: #5fbb2d;
+}
+
+.checkout a:focus,
+.checkout a:active {
+	background-color: #518534;
+	color: #abc0a1;
+}
+
 .materials {
 	background-color: #ffbf47;
 	color: #ffffff;
@@ -128,6 +165,7 @@ ul {
 
 	font-size: 14px;
 	line-height: 18px;
+	text-decoration: uppercase;
 }
 
 .tool {
@@ -144,6 +182,7 @@ ul {
 
 	font-size: 14px;
 	line-height: 18px;
+	text-decoration: uppercase;
 }
 
 .technique {
@@ -160,6 +199,7 @@ ul {
 
 	font-size: 14px;
 	line-height: 18px;
+	text-decoration: uppercase;
 }
 
 .discount {
@@ -176,9 +216,179 @@ ul {
 
 	font-size: 14px;
 	line-height: 18px;
+	text-decoration: uppercase;
 }
 
+.delivery {
+	color: #ffffff;
+	background-color: #ffc047;
 
+	font-size: 24px;
+	line-height: 30px;
+}
 
+.delivery a {
+	color: #ffffff;
+	background-color: #e5ac40;
 
+	font-size: 14px;
+	line-height: 18px;
+	text-decoration: uppercase;
+}
 
+.slider a {
+	text-decoration: uppercase;
+}
+
+.popular-items {
+	background-color: #f9f5f0;
+	color: #32425c;
+
+	font-size: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+.features-buttons {
+	text-align: center;
+}
+
+.facture-buttons li:hover {
+	box-shadow: 1px 1px 15px 0 #a9adb5;
+}
+
+.item-buttons li {
+    border: 1px solid #eaeaea;
+    text-align: center;
+}
+
+.line-through {
+    color: #c0c0c0;
+
+	text-decoration: line-through;
+	font-size: 17px;
+	line-height: 18px;
+}
+
+.item-buttons p {
+	font-family: "PT Sans", sans-serif;
+	color: #000000;
+
+	font-weight: bold;
+	text-align: center;
+}
+
+.item-buttons .pricebutton {
+	font-size: 17px;
+	line-height: 18px;
+}
+
+.facture-buttons li{
+	border: 1px solid #eaeaea;
+}
+
+.services {
+	background-color: #f4f8f9;
+	color: #000000;
+
+	font-size: 13px;
+	line-height: 24px;
+}
+
+.services h3 {
+    color: #32425c;
+
+	text-transform: uppercase;
+	font-size: 36px;
+	line-height: 36px;
+}
+
+.services-table a {
+	background-color: #32425c;
+	color: #ffffff;
+
+	font-size: 21px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.services-table a:hover {
+	background-color: #293449;
+}
+
+.services-table a:focus,
+.services-table a:active {
+	background-color: #ffffff;
+	color: #32425c;
+}
+
+.all-footer-nav {
+	color: #ffffff;
+	background-color: #32425c;
+}
+
+.footer-nav a {
+	color: #ffffff;
+}
+
+.bottom-nav a {
+	color: #f5c97d;
+}
+
+.footer-nav a:hover,
+.bottom-nav a:hover {
+	text-decoration: underline;
+}
+
+.footer-nav a:focus,
+.footer-nav a:active {
+	color: #a4abb4;
+}
+
+.bottom-nav a:focus,
+.bottom-nav a:active {
+	color: #ad956f;
+}
+
+.bottom-footer {
+	background-color: #293449;
+	color: #ffffff;
+}
+
+.bottom-footer li a {
+	background-color: #212a3a;
+}
+
+.feedback {
+	font-size: 16px;
+	line-height: 18px;
+}
+
+.feedback a {
+	color: #f5c97d;
+}
+
+.personal-area a {
+	color: #32425c;
+	text-decoration: underline;
+}
+
+.personal-area a:hover {
+	color: #ee3643;
+}
+
+.personal-area a:focus,
+.personal-area a:active {
+	color: #c5cad0;
+}
+
+.catalog a {
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.filter-headline {
+	background-color: #f7f3ec;
+	color: #000000;
+	text-transform: uppercase;
+}

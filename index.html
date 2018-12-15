@@ -9,22 +9,22 @@
   </head>
   <body>
   	<header class="main-header">
-  	<section class="item-header">
-  	<a type="button" class="head-button">Техномарт</a>
+  <section class="item-header">
+  	<a class="head-button">Техномарт</a>
   	<div class="site-search">
   		<img src="img/icon-search.svg" alt="Поиск">
   		<input type="search" placeholder="Поиск" aria-label="Поиск по сайту">
   	</div>
   	<div class="bookmarks">
-  		<img src="img/icon-bookmark.svg" alt="Закладки">
-  		<a href="bookmarks.html" aria-label="Закладки">Закладки</a>
+  		<a href="bookmarks.html" aria-label="Закладки"><img src="img/icon-bookmark.svg" alt="Закладки">Закладки: 0</a>
   	</div>
   	<div class="shop-basket">
-  		<img src="img/bin-icon.svg" alt="Корзина">
-  		<a href="basket.html" aria-label="Корзина товаров">Корзина</a>
-  	</div class="checkout">
-  		<a type="button" href="order.html">Оформить заказ</a>
-  	</section>
+  		<a href="basket.html" aria-label="Корзина товаров"><img src="img/bin-icon.svg" alt="Корзина">Корзина: 0</a>
+  	</div>
+  	<div class="checkout">
+  		<a href="order.html">Оформить заказ</a>
+  	</div>
+  </section>
   	<div class="index-phone-registration">
   		<h3>Интернет-магазин<br>
   		строительных материалов<br>
@@ -35,9 +35,9 @@
   		</section>
   		<section class="registration">
   		<ul>
-  			<li><a type="button" class="user-enter" href="#" aria-label="Войти в личный кабинет"><img src="img/icon-login.svg" alt="Войти">Войти</a>
+  			<li><a class="user-enter" href="#" aria-label="Войти в личный кабинет"><img src="img/icon-login.svg" alt="Войти">Войти</a>
   			</li>
-  			<li><a type="button" class="user-registration" href="#" aria-label="Регистрация на сайте">Регистрация</a></li>
+  			<li><a class="user-registration" href="#" aria-label="Регистрация на сайте">Регистрация</a></li>
   		</ul>
   	    </section>
   		<nav>
@@ -71,7 +71,7 @@
         <div class="technique">
         	<h4>Техника</h4>
         	<img src="img/icon-tractor.svg" alt="Трактор">
-        	<a type="button" href="#">Для стройки</a>
+        	<a href="#">Для стройки</a>
         </div>
         <div class="discount">
         	<h4>Скидки 50%</h4>
@@ -83,37 +83,49 @@
         	<img src="img/icon-car.svg" alt="Доставка">
         	<a href="#">Бесплатно</a>
         </div>
-        <div class="drill-catalog">
-        	<img src="img/drill-man.jpg" alt="дрель_в_руках" width="620" height="266">
-        	<b>Дрели</b>
+        <div class="slider">
+        	<img src="img/drill-man.jpg" alt="дрель в руках" width="620" height="266">
+        	<h4>Дрели</h4>
         	<p>Соседям на радость</p>
-        	<a class="item-facture-button" type="button" href="catalog.html">Открыть каталог</a>
+        	<img src="img/perforator.png" alt="перфоратор" width="620" height="266">
+        	<h4>Перфораторы</h4>
+        	<p>Настоящие мужские игрушки</p>
+        	<a class="item-facture-button" href="catalog.html">Открыть каталог</a>
+        	<img class="slider-left" src="img/svg-technomart/icon-left.svg">
+        	<img class="slider-right" src="img/svg-technomart/icon-right.svg">
+        	<img class="slider-dot" src="img/empty-dot.svg">
+        	<img class="slider-indicator" src="img/slider-ndicator.svg">
         </div>
+
  		<section class="item-buttons">
+ 		<div class="popular-items">
  			<h2>популярные товары:</h2>
- 			<a type="button" class="item-facture-button" href="popular-item.html"> все популярные товары</a>
+ 			<a class="item-facture-button" href="popular-item.html"> все популярные товары</a>
+ 		</div>
  			<ul>
  				<li><img src="img/BFG9000.jpg" alt="BFG9000">
  					<p>Перфоратор Bosch BFG 9000</p>
  					<p class="line-through">30500 Р.</p>
- 				    <a type="button" class="price-button" href="#">25500 Р.</a></li>
+ 				    <a class="price-button" href="#"><img src="img/price-button.png" width="141" height="38">25500 Р.</a></li>
  				<li><img src="img/BFG3000.jpg" alt="BFG3000">
  				    <p>Перфоратор Bosch BFG 3000</p>
  			        <p class="line-through">22500 Р.</p>
- 			        <a type="button" class="price-button" href="#">15500 Р.</a></li>
+ 			        <a class="price-button" href="#"><img src="img/price-button.png" width="141" height="38">15500 Р.</a></li>
  				<li><img src="img/BFG6000.jpg" alt="BFG6000">
  				    <p>Перфоратор Bosch BFG 6000</p>
  				    <p class="line-through">30500 Р.</p>
- 				    <a type="button" class="price-button" href="#">25500 Р.</a></li>
+ 				    <a class="price-button" href="#"><img src="img/price-button.png" width="141" height="38">25500 Р.</a></li>
  				<li><img src="img/BFG2000.jpg" alt="BFG2000">
  				    <p>Перфоратор Bosch BFG 2000</p>
- 				    <a type="button" class="price-button" href="#">12500 Р.</a><img class="new-flag" src="img/new flag.png"></li>
+ 				    <a class="price-button" href="#"><img src="img/price-button.png" width="141" height="38">12500 Р.</a><img class="new-flag" src="img/new flag.png"></li>
  			</ul>
 
  		</section>
  		<section class="facture-buttons">
+ 		<div class="popular-items">
  			<h2>популярные производители:</h2>
- 			<a type="button" class="item-facture-button" href="factures.html">все производители</a>
+ 			<a class="item-facture-button" href="factures.html">все производители</a>
+ 		</div>
  			<ul>
  				<li class="bosch"><a href="#"aria-label="Bosch"><img src="img/bosch.jpg" alt="Bosch"></a></li>
  				<li class="makita"><a href="#" aria-label="Makita"><img src="img/Makita.jpg" alt="Makita"></a></li>
@@ -125,28 +137,28 @@
  				<li class="metabo"><a href="#" aria-label="Metabo"><img src="img/Metabo.jpg" alt="Metabo"></a></li>
  			</ul>
  		</section>
- 		<section class="cervices">
- 			<div class="services">
+ 		<div class="services">
+ 			<section class="services-head">
  			<h3>сервисы</h3>
  			<p>Хороший интернет-магазин отличается от плохого не только ценами<br>
  			Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными</p>
- 		    </div>
- 		    <div class="services-table">
+ 		    </section>
+ 		    <section class="services-table">
  			<ul>
  				<li><a href="delivery.html">Доставка</a></li>
  				<li><a href="guaranty.html">Гарантия</a></li>
  				<li><a href="credit.html">Кредит</a></li>
  			</ul>
- 		    </div>
-            <div class="delivery-main">
-            <h2>Доставка</h2>
+ 		    </section>
+            <section class="delivery-main">
+            <h3>Доставка</h3>
             <p>Мы с удовольствием доставим ваш товар прямо<br>
             к вашему подъезду совершенно бесплатно!<br>
             Ведь мы неплохо заработаем,<br>
             поднимая его на ваш этаж!</p>
-            </div>
+            </section>
             <img src="img/big-truck.png" alt="грузовик" class="bigcar-main">
- 		</section>
+        </div>
  		<section class="company-contacts">
  			<h3>Компания "Техномарт"</h3>
  			<p>Настоящий мужской  шоппинг начинается! Огромный выбор товаров для ремонта и<br>
@@ -158,32 +170,18 @@
  				<li>Автотрейдинг</li>
  				<li>ЖелДорЭкспедиция</li>
  			</ul>
- 			<a type="button" class="company-button" href="company.html">Подробнее о компании</a>
+ 			<a class="item-facture-button" href="company.html">Подробнее о компании</a>
  		</section>
  		<section class="contacts">
  			<h3>Контакты</h3>
  			<p>Вы можете забрать товар сами,<br>
  			заехав в наш офис:</p>
-        <div class="map-popup">
-            <img src="img/map-popup.jpg">
-            <img src="img/svg-technomart/icon-close.svg">
-        </div>
- 			<a class="item-facture-button" type="button" href="">заблудились? напишите нам!</a>
- 			<form class="write-us" action="/echo" method="post">
- 		      <div class="form-main">
- 				<label for="name">Ваше Имя:</label>
- 				<input type="text" name="write-us" id="name" placeholder="Имя Фамилия" aria-label="Ваше имя и фамилия">
- 				<label for="mail">Ваш e-mail:</label>
- 				<input type="mail" name="write-us" id="mail" placeholder="email@example.com" aria-label="Адрес вашей электронной почты">
- 				<label for="letter-text">Текст письма:</label>
- 				<textarea name="write-us" id="letter-text" placeholder="В свободной форме" aria-label="Текст письма"></textarea>
- 				<img src="img/svg-technomart/icon-close.svg" aria-label="Закрыть форму обратной связи">
- 			  </div>
- 			    <input type="submit" name="write-us" value="Отправить">
- 			</form>
+ 			<img src="img/map-mini.png">
+ 			<a class="item-facture-button" href="">заблудились? напишите нам!</a>
  		</section>
  		<footer class="main-footer">
- 			<h2 class="footer-headline">Техномарт</h2>
+ 		<div class="all-footer-nav">
+ 			<a class="head-button" href="#"><span>Техномарт</span></a>
  			<nav class="footer-nav">
  				<ul>
  					<li><a href="company.html">Компания</a></li>
@@ -203,6 +201,7 @@
  						<li><a href="special-offers.html">Спецпредложения</a></li>
  					</ul>
  				</nav>
+ 			</div>
  				<div class="bottom-footer">
  					<p class="copyright">&#169; 2010-2017 Компания "Техномарт"<br>
  					Все права защищены</p>
@@ -211,12 +210,30 @@
  						<li><a class="social-button" href="#" aria-label="Страница компании на Фейсбуке"><img src="img/svg-technomart/icon-fb.svg" alt="FB"></a></li>
  						<li><a class="social-button" href="#" aria-label страница компании в инстаграме><img src="img/svg-technomart/icon-insta.svg" alt="Insta"></a></li>
  					</ul>
- 					<p class="feedback"><b>Обратная связь</b><br>
- 				    <a href="mailto:mail@htmlacademy.ru" aria-label="отпрвить письмо компании">mail@htmlacademy.ru</a></p>
- 				    <p class="developed"><b>Разработано -</b><br>
- 				    <a href="htmlacademy.ru">htmlacademy.ru</a></p>
+ 			      <section class="feedback">
+ 					<b>Обратная связь:</b><br>
+ 				    <a href="mailto:mail@htmlacademy.ru" aria-label="отпрвить письмо компании">mail@htmlacademy.ru</a><br>
+ 				    <b>Разработано -</b><br>
+ 				    <a href="htmlacademy.ru">htmlacademy.ru</a>
+ 				  </section>
  				</div>
  		</footer>
+ 		<form class="write-us" action="/echo" method="post">
+ 		      <div class="form-main">
+ 				<label for="name">Ваше Имя:</label>
+ 				<input type="text" name="write-us" id="name" placeholder="Имя Фамилия" aria-label="Ваше имя и фамилия">
+ 				<label for="mail">Ваш e-mail:</label>
+ 				<input type="mail" name="write-us" id="mail" placeholder="email@example.com" aria-label="Адрес вашей электронной почты">
+ 				<label for="letter-text">Текст письма:</label>
+ 				<textarea name="write-us" id="letter-text" placeholder="В свободной форме" aria-label="Текст письма"></textarea>
+ 				<img src="img/svg-technomart/icon-close.svg" aria-label="Закрыть форму обратной связи">
+ 			  </div>
+ 			    <input type="submit" name="write-us" value="Отправить">
+ 			</form>
+ 		<div class="map-popup">
+            <img src="img/map-popup.jpg">
+            <img src="img/svg-technomart/icon-close.svg">
+        </div>
  	</main>
   </body>
 </html>

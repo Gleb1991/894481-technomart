@@ -10,7 +10,7 @@
   <body>
   	<header class="main-header">
   <section class="item-header">
-  	<a class="head-button">Техномарт</a>
+  	<a class="head-button" href="index.html">Техномарт</a>
   	<div class="site-search">
   		<img src="img/icon-search.svg" alt="Поиск">
   		<input type="search" placeholder="Поиск" aria-label="Поиск по сайту">
@@ -22,7 +22,7 @@
   		<a href="basket.html" aria-label="Корзина товаров"><img src="img/bin-icon.svg" alt="Корзина">Корзина: 0</a>
   	</div>
   	<div class="checkout">
-  		<a href="order.html">Оформить заказ</a>
+  		<input type="button" value="Оформить заказ">
   	</div>
   </section>
   	<div class="index-phone-registration">
@@ -35,9 +35,9 @@
   		</section>
   		<section class="registration">
   		<ul>
-  			<li><a class="user-enter" href="#" aria-label="Войти в личный кабинет"><img src="img/icon-login.svg" alt="Войти">Войти</a>
+  			<li><input type="button" class="user-enter" aria-label="Войти в личный кабинет" value="Войти"><img src="img/svg-technomart/icon-login.svg">
   			</li>
-  			<li><a class="user-registration" href="#" aria-label="Регистрация на сайте">Регистрация</a></li>
+  			<li><input type="button" class="user-registration" aria-label="Регистрация на сайте" value="Регистрация"></li>
   		</ul>
   	    </section>
   		<nav>
@@ -61,27 +61,27 @@
         <h4>Материалы</h4>
         <img src="img/icon-paint.svg" alt="Краска">
         <img src="img/new flag.png">
-        <a href="#">На любой вкус</a>
+        <input type="button" value="На любой вкус">
         </div>
         <div class="tool">
         	<h4>Инструмент</h4>
         	<img src="img/icon-drill.svg" alt="Дрель">
-        	<a href="#">На все случаи</a>
+        	<input type="button" value="На все случаи">
         </div>
         <div class="technique">
         	<h4>Техника</h4>
         	<img src="img/icon-tractor.svg" alt="Трактор">
-        	<a href="#">Для стройки</a>
+        	<input type="button" value="Для стройки">
         </div>
         <div class="discount">
         	<h4>Скидки 50%</h4>
         	<img src="img/icon-bigbin.svg" alt="Корзина">
-        	<a href="#">На 350 товаров</a>
+        	<input type="button" value="Для стройки">
         </div>
         <div class="delivery">
         	<h4>Доставка</h4>
         	<img src="img/icon-car.svg" alt="Доставка">
-        	<a href="#">Бесплатно</a>
+        	<input type="button" value="Бесплатно">
         </div>
         <div class="slider">
         	<img src="img/drill-man.jpg" alt="дрель в руках" width="620" height="266">
@@ -90,41 +90,43 @@
         	<img src="img/perforator.png" alt="перфоратор" width="620" height="266">
         	<h4>Перфораторы</h4>
         	<p>Настоящие мужские игрушки</p>
-        	<a class="item-facture-button" href="catalog.html">Открыть каталог</a>
+        	<input type="button" class="item-facture-button" href="catalog.html" value="Открыть каталог">
         	<img class="slider-left" src="img/svg-technomart/icon-left.svg">
         	<img class="slider-right" src="img/svg-technomart/icon-right.svg">
         	<img class="slider-dot" src="img/empty-dot.svg">
         	<img class="slider-indicator" src="img/slider-ndicator.svg">
         </div>
 
- 		<section class="item-buttons">
+ 		<section class="all-items">
  		<div class="popular-items">
  			<h2>популярные товары:</h2>
- 			<a class="item-facture-button" href="popular-item.html"> все популярные товары</a>
+ 			<input type="button" class="item-facture-button" value="все популярные товары">
  		</div>
+ 		<div class="item-buttons">
  			<ul>
  				<li><img src="img/BFG9000.jpg" alt="BFG9000">
  					<p>Перфоратор Bosch BFG 9000</p>
  					<p class="line-through">30500 Р.</p>
- 				    <a class="price-button" href="#"><img src="img/price-button.png" width="141" height="38">25500 Р.</a></li>
+ 				    <input type="button" class="price-button" value="25500 Р."></li>
  				<li><img src="img/BFG3000.jpg" alt="BFG3000">
  				    <p>Перфоратор Bosch BFG 3000</p>
  			        <p class="line-through">22500 Р.</p>
- 			        <a class="price-button" href="#"><img src="img/price-button.png" width="141" height="38">15500 Р.</a></li>
+ 			        <input type="button" class="price-button" value="15500 Р."></li>
  				<li><img src="img/BFG6000.jpg" alt="BFG6000">
  				    <p>Перфоратор Bosch BFG 6000</p>
  				    <p class="line-through">30500 Р.</p>
- 				    <a class="price-button" href="#"><img src="img/price-button.png" width="141" height="38">25500 Р.</a></li>
+ 				    <input type="button" class="price-button" value="25500 Р."></li>
  				<li><img src="img/BFG2000.jpg" alt="BFG2000">
  				    <p>Перфоратор Bosch BFG 2000</p>
- 				    <a class="price-button" href="#"><img src="img/price-button.png" width="141" height="38">12500 Р.</a><img class="new-flag" src="img/new flag.png"></li>
+ 				    <input type="button" class="price-button" value="12500 Р."><img class="new-flag" src="img/new flag.png"></li>
  			</ul>
+ 		</div>
 
  		</section>
  		<section class="facture-buttons">
  		<div class="popular-items">
  			<h2>популярные производители:</h2>
- 			<a class="item-facture-button" href="factures.html">все производители</a>
+ 			<input type="button" class="item-facture-button" value="все производители">
  		</div>
  			<ul>
  				<li class="bosch"><a href="#"aria-label="Bosch"><img src="img/bosch.jpg" alt="Bosch"></a></li>
@@ -170,14 +172,14 @@
  				<li>Автотрейдинг</li>
  				<li>ЖелДорЭкспедиция</li>
  			</ul>
- 			<a class="item-facture-button" href="company.html">Подробнее о компании</a>
+ 			<input type="button" class="item-facture-button" value="Подробнее о компании">
  		</section>
  		<section class="contacts">
  			<h3>Контакты</h3>
  			<p>Вы можете забрать товар сами,<br>
  			заехав в наш офис:</p>
  			<img src="img/map-mini.png">
- 			<a class="item-facture-button" href="">заблудились? напишите нам!</a>
+ 			<input type="button" class="item-facture-button" value="заблудились? напишите нам!">
  		</section>
  		<footer class="main-footer">
  		<div class="all-footer-nav">
@@ -223,12 +225,12 @@
  				<label for="name">Ваше Имя:</label>
  				<input type="text" name="write-us" id="name" placeholder="Имя Фамилия" aria-label="Ваше имя и фамилия">
  				<label for="mail">Ваш e-mail:</label>
- 				<input type="mail" name="write-us" id="mail" placeholder="email@example.com" aria-label="Адрес вашей электронной почты">
+ 				<input type="mail" name="write-us" id="mail" placeholder="email@example.com" aria-label="Адрес вашей электронной почты"><br>
  				<label for="letter-text">Текст письма:</label>
- 				<textarea name="write-us" id="letter-text" placeholder="В свободной форме" aria-label="Текст письма"></textarea>
+ 				<textarea name="write-us" id="letter-text" placeholder="В свободной форме" aria-label="Текст письма"></textarea><br>
  				<img src="img/svg-technomart/icon-close.svg" aria-label="Закрыть форму обратной связи">
  			  </div>
- 			    <input type="submit" name="write-us" value="Отправить">
+ 			    <button type="submit" name="write-us" value="Отправить"></button>
  			</form>
  		<div class="map-popup">
             <img src="img/map-popup.jpg">

@@ -10,7 +10,7 @@
   <body>
     <header class="main-header">
    <section class="item-header">
-    <a class="head-button">Техномарт</a>
+    <a class="head-button" href="index.html">Техномарт</a>
     <div class="site-search">
       <img src="img/icon-search.svg" alt="Поиск">
       <input type="search" placeholder="Поиск" aria-label="Поиск по сайту">
@@ -22,7 +22,7 @@
       <a href="basket.html" aria-label="Корзина товаров"><img src="img/bin-icon.svg" alt="Корзина">Корзина: 0</a>
     </div>
     <div class="checkout">
-      <a href="order.html">Оформить заказ</a>
+      <input type="button" value="Оформить заказ">
     </div>
     </section>
     <div class="index-phone-registration">
@@ -70,15 +70,15 @@
 
     <hr>
     <h3>Производители</h3>
-    <input type="checkbox" name="check-facture" id="Bosch">Bosch<br>
-    <input type="checkbox" name="check-facture" id="Interskol">Интерскол<br>
-    <input type="checkbox" name="check-facture" id="Makita">Makita<br>
-    <input type="checkbox" name="check-facture" id="Dewalt">Dewalt<br>
-    <input type="checkbox" name="check-facture" id="Hitachi">Hitachi
+    <input type="checkbox" name="check-facture" id="Bosch"><label for="Bosch">Bosch</label><br>
+    <input type="checkbox" name="check-facture" id="Interskol"><label for="Interskol">Интерскол</label><br>
+    <input type="checkbox" name="check-facture" id="Makita"><label for="Makita">Makita</label><br>
+    <input type="checkbox" name="check-facture" id="Dewalt"><label for="Dewalt">Dewalt</label><br>
+    <input type="checkbox" name="check-facture" id="Hitachi"><label for="Hitachi">Hitachi</label>
     <hr>
     <h3>Питание</h3>
-    <input type="radio" name="check-facture" id="battery">Аккумуляторные<br>
-    <input type="radio" name="check-facture" id="grid">Сетевые<br>
+    <input type="radio" name="check-facture" id="battery"><label for="battery">Аккумуляторные</label><br>
+    <input type="radio" name="check-facture" id="grid"><label for="grid">Сетевые</label><br>
     <a type="button" href="#">Показать</a>
   </section>
   <section class="perforator-items">
@@ -88,50 +88,50 @@
       <a class="by-function" href="#">По функционалу</a>
       <img src="img/triangle.svg">
     </div>
-    <div class="all-perforators">
+    <div class="item-buttons">
       <ul>
         <li><img src="img/BFG3000.jpg" alt="BFG3000">
             <p>Перфоратор Bosch BFG 3000</p>
             <p class="line-through" aria-label="Старая цена">22500 Р.</p>
-            <a type="button" class="price-button" href="#" aria-label="Новая цена">15500 Р.</a></li>
+            <input type="button" class="price-button" href="#" aria-label="Новая цена" value="15500 Р."></li>
         <li><img src="img/BFG6000.jpg" alt="BFG6000">
             <p>Перфоратор Bosch BFG 6000</p>
             <p class="line-through" aria-label="Старая цена">30500 Р.</p>
-            <a type="button" class="price-button" href="#" aria-label="Новая цена">25500 Р.</a></li>
-        <li><a type="button" class="buy-button" href="#">Купить</a>
-            <a type="button" class="bookmarks-button" href="bookmarks.html">В закладки</a><a type="button" class="price-button" href="#">12500 Р.</a>
+            <input type="button" class="price-button" href="#" aria-label="Новая цена" value="25500 Р."></li>
+        <li><input type="button" class="buy-button" value="купить">
+            <input type="button" class="bookmark-button" value="В закладки"><input type="button" class="price-button" value="12500 Р.">
             <img class="new-flag" src="img/new flag.png">
             </li>
         <li><img src="img/BFG3000.jpg" alt="BFG3000">
             <p>Перфоратор Bosch BFG 3000</p>
             <p class="line-through" aria-label="Старая цена">22500 Р.</p>
-            <a type="button" class="price-button" href="#" aria-label="Новая цена">15500 Р.</a></li>
+            <input type="button" class="price-button" href="#" aria-label="Новая цена" value="15500 Р."></li>
         <li><img src="img/BFG6000.jpg" alt="BFG6000">
             <p>Перфоратор Bosch BFG 6000</p>
             <p class="line-through" aria-label="Старая цена">30500 Р.</p>
-            <a type="button" class="price-button" href="#" aria-label="Новая цена">25500 Р.</a><img class="new-flag" src="img/new flag.png"></li>
+            <input type="button" class="price-button" href="#" aria-label="Новая цена" value="25500 Р."><img class="new-flag" src="img/new flag.png"></li>
         <li><img src="img/BFG2000.jpg" alt="BFG2000">
             <p>Перфоратор Bosch BFG 2000</p>
-            <a type="button" class="price-button" href="#">12500 Р.</a></li>
+            <input type="button" class="price-button" value="12500 Р."></li>
         <li><img src="img/BFG3000.jpg" alt="BFG3000">
             <p>Перфоратор Bosch BFG 3000</p>
             <p class="line-through" aria-label="Старая цена">22500 Р.</p>
-            <a type="button" class="price-button" href="#" aria-label="Новая цена">15500 Р.</a><img class="new-flag" src="img/new flag.png"></li>
+            <input type="button" class="price-button" aria-label="Новая цена" value="15500 Р."><img class="new-flag" src="img/new flag.png"></li>
         <li><img src="img/BFG6000.jpg" alt="BFG6000">
             <p>Перфоратор Bosch BFG 6000</p>
             <p class="line-through" aria-label="Старая цена">30500 Р.</p>
-            <a type="button" class="price-button" href="#" aria-label="Новая цена">25500 Р.</a></li>
+            <input type="button" class="price-button" aria-label="Новая цена" value="25500 Р."></li>
         <li><img src="img/BFG2000.jpg" alt="BFG2000">
             <p>Перфоратор Bosch BFG 2000</p>
-            <a type="button" class="price-button" href="#">12500 Р.</a></li>
+            <input type="button" class="price-button" value="12500 Р."></li>
       </ul>
     </div>
     <div class="page-buttons">
       <ul>
-        <li><a type="button" href="#">1</a></li>
-        <li><a type="button" href="#">2</a></li>
-        <li><a type="button" href="#">3</a></li>
-        <li><a type="button" href="#">Следующая</a></li>
+        <li><input type="button" value="1"></li>
+        <li><input type="button" value="2"></li>
+        <li><input type="button" value="3"></li>
+        <li><input type="button" class="next-button" value="Следующая"></li>
       </ul>
     </div>
   </section>
